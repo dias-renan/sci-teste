@@ -22,7 +22,7 @@ Resolução teste técnico proposto que consiste em
 
 Para funcionar em meu ambiente local tenho preferencia em usar o Linux Ubuntu para rodar o docker engine
 
-Para essa primeira parte fiz a criação manual de um container usando Nginx e outro com o PHP-FPM com um arquivo simples index.php para exibir "Olá mundo" usando uma estrutura simples \
+Para essa primeira parte fiz a criação manual de um container usando Nginx e outro com o PHP-FPM com um arquivo simples index.php para exibir "Olá mundo" usando uma estrutura simples
 
 - Criação do arquivo default.conf para definir qual porta escutar, onde estão os arquivos do site, como tratar arquivos PHP via PHP-FPM
 
