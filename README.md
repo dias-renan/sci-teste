@@ -39,3 +39,10 @@ com isso é possivel pesquisar nosso local host no navegador e exibir Olá Mundo
 ![execucao_ola_mundo_local](/home/renan/teste-sci/img/ola-mundo.png)
 
 ## Resolução exercício 2
+
+Foi criado uma instancia EC2 t2.micro para usar o free tier usando Ubuntu
+Como medida de segurança foi deixado apenas a porta 80 liberada através de um security group nomeado como SG-web lembrando que em caso de uso http precisária também deixar a porta 443 liberada
+
+# Observação:
+
+Para ter uma infraestrutura melhor deveriamos criar uma VPC personalida a adaptar ao nosso uso separando-a em redes publicas e privadas deixando as instancias que a aplicação roda na rede privada porém acarretaria em custos pois seria necessário a utilização de NAT gateway e o uso de um Elastic IP
